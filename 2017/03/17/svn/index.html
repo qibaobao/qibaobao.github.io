@@ -6,14 +6,51 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://baidu.com">
-  <title>Archives: 2017 | Qibaobao-blog</title>
+  <title>svn | Qibaobao-blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Qibaobao-blog">
-<meta property="og:url" content="http://baidu.com/archives/2017/index.html">
+  <meta name="description" content="svn（Apache Subversion）笔记别人访问  https://kyle/svn/admin
+本机访问     https://ip地址/svn/admin
+
+版本控制工具
+多人协作开发
+
+版本中央服务器
+帮你保存历史记录
+把所有用户通过这个中央服务器进行协同交互
+中央服务器上可以存放多个项目的源代码仓库
+用户开发项目都是和这个源代码仓库进行协同
+服务器对于接收到的每一次的commit">
+<meta property="og:type" content="article">
+<meta property="og:title" content="svn">
+<meta property="og:url" content="http://baidu.com/2017/03/17/svn/index.html">
 <meta property="og:site_name" content="Qibaobao-blog">
+<meta property="og:description" content="svn（Apache Subversion）笔记别人访问  https://kyle/svn/admin
+本机访问     https://ip地址/svn/admin
+
+版本控制工具
+多人协作开发
+
+版本中央服务器
+帮你保存历史记录
+把所有用户通过这个中央服务器进行协同交互
+中央服务器上可以存放多个项目的源代码仓库
+用户开发项目都是和这个源代码仓库进行协同
+服务器对于接收到的每一次的commit">
+<meta property="og:updated_time" content="2017-03-09T15:52:09.808Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Qibaobao-blog">
+<meta name="twitter:title" content="svn">
+<meta name="twitter:description" content="svn（Apache Subversion）笔记别人访问  https://kyle/svn/admin
+本机访问     https://ip地址/svn/admin
+
+版本控制工具
+多人协作开发
+
+版本中央服务器
+帮你保存历史记录
+把所有用户通过这个中央服务器进行协同交互
+中央服务器上可以存放多个项目的源代码仓库
+用户开发项目都是和这个源代码仓库进行协同
+服务器对于接收到的每一次的commit">
   
     <link rel="alternative" href="/atom.xml" title="Qibaobao-blog" type="application/atom+xml">
   
@@ -145,211 +182,168 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-svn" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/18/qiqi/" class="archive-article-date">
-  	<time datetime="2017-03-17T16:01:27.443Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-18</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/18/qiqi/">琦琦的简历</a>
+    <h1 class="article-title" itemprop="name">
+      svn
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/svn/" class="archive-article-date">
+        
+        <a href="/2017/03/17/svn/" class="archive-article-date">
   	<time datetime="2017-03-17T14:51:05.952Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/svn/">svn</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="svn（Apache-Subversion）笔记"><a href="#svn（Apache-Subversion）笔记" class="headerlink" title="svn（Apache Subversion）笔记"></a>svn（Apache Subversion）笔记</h1><p>别人访问  <a href="https://kyle/svn/admin" target="_blank" rel="external">https://kyle/svn/admin</a></p>
+<p>本机访问     <a href="https://ip地址/svn/admin" target="_blank" rel="external">https://ip地址/svn/admin</a></p>
+<blockquote>
+<p>版本控制工具</p>
+<p>多人协作开发</p>
+</blockquote>
+<h3 id="版本中央服务器"><a href="#版本中央服务器" class="headerlink" title="版本中央服务器"></a>版本中央服务器</h3><ol>
+<li>帮你保存历史记录</li>
+<li>把所有用户通过这个中央服务器进行协同交互</li>
+<li>中央服务器上可以存放多个项目的源代码仓库</li>
+<li>用户开发项目都是和这个源代码仓库进行协同</li>
+<li>服务器对于接收到的每一次的commit都会使用你的commit的文件覆盖到最新版本，然后帮你保存历史记录</li>
+</ol>
+<ul>
+<li>在没有源代码的前提下 通过checkout的方式把服务器上的源代码下载到本地（检出）</li>
+<li>再该仓库目录下开发：添加文件、修改文件、删除文件。</li>
+<li>如果你想保存历史纪录：通过commit的形式提交非服务器，只要commit 一次，则服务器就会帮你保存一次历史记录，假如我再本地添加一个data.txt写了一些内容hello world<ul>
+<li>开发人员，再没有源代码的情况下，通过checkout的方式吧源代码下载到本地，以后就可以通过update（拉取最新源代码）和commit（推到远程版本管理服务器，形成一次新的历史版本）实现多人协作</li>
+</ul>
+</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>大多数公司现如今用的是git 用svn的很少，因为svn有很多缺点</p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>thanks by kyle<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://baidu.com/2017/03/17/svn/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/jquery/" class="archive-article-date">
-  	<time datetime="2017-03-17T14:51:05.905Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/jquery/">jquery复习</a>
-    </h1>
+    <a href="/2017/03/18/qiqi/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          琦琦的简历
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/03/17/jquery/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">jquery复习</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+  
+    <div class="duoshuo"></div>
   
 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/html5/" class="archive-article-date">
-  	<time datetime="2017-03-17T14:51:05.838Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/html5/">HTML5</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/hello-world/" class="archive-article-date">
-  	<time datetime="2017-03-17T14:51:05.797Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/git/" class="archive-article-date">
-  	<time datetime="2017-03-17T14:51:05.767Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/git/">git笔记</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/03/17/bootstrap/" class="archive-article-date">
-  	<time datetime="2017-03-17T14:51:05.742Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/17/bootstrap/">BootStrap复习</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -372,8 +366,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
